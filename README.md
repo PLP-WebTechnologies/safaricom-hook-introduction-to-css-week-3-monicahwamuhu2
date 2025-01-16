@@ -13,6 +13,8 @@
 ---
 
 ### **📂 Assignment Tasks**  
+![Screenshot (222)](https://github.com/user-attachments/assets/ed2f8d4e-bf5f-4d4d-8ec0-10004b6a3643)
+
 
 #### **Part 1: CSS Basics - Selectors, Properties, and Values (20 Points)**  
 1. Create an HTML file with at least three different types of elements (e.g., `<h1>`, `<p>`, `<div>`).  
