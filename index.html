@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics Assignment</title>
+    
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS for Part 1 and Part 3 */
+        h1 {
+            font-size: 36px;
+            color: darkgreen;
+        }
+        .highlight {
+            background-color: lightyellow;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        #unique-element {
+            border: 2px dashed blue;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .card {
+            width: 300px;
+            padding: 20px;
+            margin: 20px auto;
+            background-color: lightblue;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Part 1: CSS Basics - Selectors -->
+    <h1>Welcome to CSS Basics</h1>
+    <p>This paragraph demonstrates the use of CSS selectors.</p>
+    <div class="highlight">This section uses a class selector for background color.</div>
+    <div id="unique-element">This section has a unique ID with a dashed border.</div>
+
+    <!-- Part 2: Inline, Internal, and External CSS -->
+    <p style="color: blue; font-weight: bold;">This paragraph is styled using inline CSS for text color.</p>
+    <a href="#" style="text-decoration: none; color: darkred;">Hover over me!</a>
+
+    <!-- Part 3: Card Component -->
+    <div class="card">
+        <h2>Card Title</h2>
+        <p>This is a simple card component with padding, margin, and a light background color.</p>
+    </div>
+</body>
+</html>
